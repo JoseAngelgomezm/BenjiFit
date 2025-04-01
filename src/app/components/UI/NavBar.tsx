@@ -5,7 +5,11 @@ import Image from "next/image";
 import NavButton from "./NavButton";
 
 const NavBar: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(() => window.innerWidth >= 768);
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    setIsOpen(window.innerWidth >= 768);
+  }, []);
   const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
