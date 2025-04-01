@@ -2,6 +2,7 @@
 import React from "react";
 import { Inter } from "next/font/google"; // Si estás usando fuentes personalizadas
 import "./globals.css"; // Si tienes estilos globales
+import WhatsAppButton from "./components/UI/WhatsappButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +16,10 @@ export default function RootLayout({
       <head />
       <body className={inter.className}>
         <header></header>
-        <main>{children}</main>
+        <main>
+          {children} <WhatsAppButton />
+        </main>
+
         <footer></footer>
       </body>
     </html>

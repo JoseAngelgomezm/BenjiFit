@@ -1,14 +1,14 @@
-import Slider from "./Slider";
+import Slider from "./UI/Slider";
 
 const Hero = () => {
   return (
     <section className="relative h-screen bg-gray-900 text-white">
-      {/* Fondo con la imagen del entrenador */}
+      {/* Background principal image */}
       <div className="absolute inset-0">
         <Slider></Slider>
       </div>
 
-      {/* Contenido encima de la imagen */}
+      {/* Content up to image */}
       <div className="relative z-10 flex justify-center items-center h-full text-center p-4">
         <div className="space-y-6">
           <h1 className="text-5xl font-bold text-red-600 drop-shadow-lg">
