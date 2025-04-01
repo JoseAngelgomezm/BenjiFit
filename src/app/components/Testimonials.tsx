@@ -6,9 +6,9 @@ const Testimonials = () => {
         <div className="flex flex-col md:flex-row justify-center gap-8">
           <div className="p-6 bg-white shadow-lg rounded-lg max-w-xs mx-auto">
             <p className="text-lg italic text-gray-600 mb-4">
-              "Gracias a Benji, he transformado mi cuerpo y mi mentalidad. Los
+              Gracias a Benji, he transformado mi cuerpo y mi mentalidad. Los
               entrenamientos son efectivos y siempre me motiva a seguir
-              adelante."
+              adelante.
             </p>
             <p className="font-semibold text-black">María González</p>
             <p className="text-sm text-gray-500">Cliente satisfecha</p>
@@ -16,9 +16,9 @@ const Testimonials = () => {
 
           <div className="p-6 bg-white shadow-lg rounded-lg max-w-xs mx-auto">
             <p className="text-lg italic text-gray-600 mb-4">
-              "Nunca imaginé que podría lograr tanto en tan poco tiempo. El
+              Nunca imaginé que podría lograr tanto en tan poco tiempo. El
               enfoque personalizado y la motivación constante me han ayudado
-              mucho."
+              mucho.
             </p>
             <p className="font-semibold text-black">Carlos Pérez</p>
             <p className="text-sm text-gray-500">Cliente satisfecho</p>
