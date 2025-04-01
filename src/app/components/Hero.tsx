@@ -1,17 +1,11 @@
-import Image from 'next/image';
+import Slider from "./Slider";
 
 const Hero = () => {
   return (
     <section className="relative h-screen bg-gray-900 text-white">
       {/* Fondo con la imagen del entrenador */}
       <div className="absolute inset-0">
-        <Image
-          src="/images/entrenador.jpg" // Cambia la ruta a la imagen real
-          alt="Entrenador Personal"
-          layout="fill"
-          objectFit="cover"
-          className="opacity-60"
-        />
+        <Slider></Slider>
       </div>
 
       {/* Contenido encima de la imagen */}
@@ -20,8 +14,12 @@ const Hero = () => {
           <h1 className="text-5xl font-bold text-red-600 drop-shadow-lg">
             Benji Gómez - Entrenador Personal
           </h1>
-          <p className="text-lg sm:text-2xl max-w-3xl mx-auto text-white opacity-80">
-            Transformación física y mental a tu alcance. ¡Alcanza tus objetivos con la mejor guía!
+          <p className="text-lg font-bold sm:text-2xl max-w-3xl mx-auto text-white">
+            Entrenamiento a tu medida para alcanzar tus metas.
+          </p>
+          <p>
+            Tu progreso, mi compromiso. Entrenamientos hechos a medida para
+            ayudarte a lograr tus metas, con seguimiento continuo.
           </p>
           <a
             href="https://www.instagram.com/benjigomezpro"
